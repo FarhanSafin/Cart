@@ -1,0 +1,63 @@
+body{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+.col-2{
+  flex: 2;
+}
+.block{
+  background-color: #f2f4f9;
+  padding: 0rem;
+  border-radius: 00.5rem;
+  height: 50.5rem;
+
+}
+img.small {
+  max-height: 7.5rem;
+}
+button.remove {
+  background-color: #f04040;
+  width: 2rem;
+}
+.text-right{
+  text-align: right;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.form-control{
+  margin-bottom: 2%;
+  width: 100%;
+}
+.card{
+  background-color: white;
+  padding: 0rem;
+  border-radius: 00.2rem;
+  height: 15rem;
+  border: solid #ddd5d5;
+  display: inline;
+}
+.name{
+  text-align: center;
+}
+.calculation{
+  margin-top: 65%;
+  position: static;
+}
+.user{
+  background-color: #f2f4f9;
+  padding-bottom: 0.5rem;
+}
+
+.footer-button{
+  margin-left: 50%;
+}
+.cart-btn{
+  align-items: center;
+  text-align: center;
+}
